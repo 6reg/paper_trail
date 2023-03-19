@@ -121,8 +121,8 @@ Experts: to install incompatible versions of activerecord, see
     ```
     bundle exec rails generate paper_trail:install [--with-changes]
     ```
-    
-    If tables in your project use `uuid` instead of `integers` for `id`, then use:  
+
+    If tables in your project use `uuid` instead of `integers` for `id`, then use:
     ```
     bundle exec rails generate paper_trail:install [--uuid]
     ```
@@ -1803,5 +1803,5 @@ Released under the MIT licence.
 [53]: https://badge.fury.io/rb/paper_trail.svg
 [54]: https://rubygems.org/gems/paper_trail
 [55]: https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates#about-compatibility-scores
-[56]: https://api.dependabot.com/badges/compatibility_score?dependency-name=paper_trail&package-manager=bundler&version-scheme=semver
+[56]: https://api.dependabot.com/badges/compatibility_score?dependency-name=paper_trail&package-manager=bundler&version-scheme=semver&previous-version=13.0&new-version=14.0
 [57]: https://bundler.io/v2.3/man/bundle-install.1.html
